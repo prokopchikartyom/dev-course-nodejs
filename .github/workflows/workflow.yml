@@ -6,7 +6,7 @@ on:
 
 jobs:
   local-deploy:
-    runs-on: [self-hosted, Linux, wsl-art-runner]
+    runs-on: [self-hosted]
     steps:
       - name: Checkout repository code
         uses: actions/checkout@v3
