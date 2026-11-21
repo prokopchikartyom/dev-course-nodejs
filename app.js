@@ -71,7 +71,7 @@ app.get('/diagnostics', (req, res) => {
         </head>
         <body>
             <div class="panel">
-                <div class="title">=== МОНИТОРИНГ УТИЛИЗАЦИИ РЕСУРСОВ ОЗУ ===</div>
+                <div class="title">=== УТИЛИЗАЦИИ РЕСУРСОВ ОЗУ ===</div>
                 <div class="row">DEVOPS BUILD TICKET: <span class="highlight">#${generateBuildTicket()}</span></div>
                 <div class="row">Занято физической памяти (RSS): <span class="highlight">${rss} МБ</span></div>
                 <div class="row">Выделено кучи (Heap Total): <span class="highlight">${heapTotal} МБ</span></div>
